@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="Somke"/>>
+  </run>
+  </groups>
+    <classes>
+      <class name="testng.NewTest"/>
+      <parameter name="param" value="Welcome"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
